@@ -1,8 +1,8 @@
 <?php
 /**
  * Modern Clean Footer Template
- * 2026 Light Cyber Space Edition
  * Preserves Yandex.Metrika, Top.Mail.Ru counters, and ya-share2 block
+ * Clean copyright without third-party theme branding
  *
  * @package First_Mag
  */
@@ -14,7 +14,7 @@
 			<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,linkedin,viber,whatsapp,skype,telegram" data-counter=""></div>
 			
 			<div class="footer-copyright">
-				<?php printf( esc_html__( 'Copyright &copy; %1$s GOMOLOFF | %2$s портал IT & Cosmos', 'first-mag' ), esc_html( date( 'Y' ) ), '<a href="' . esc_url( home_url( '/' ) ) . '" title="First Mag Space Portal">First Mag</a>' ); ?>
+				<?php printf( esc_html__( 'Copyright &copy; %1$s GOMOLOFF', 'first-mag' ), esc_html( date( 'Y' ) ) ); ?>
 			</div>
 		</div>
 	</div>

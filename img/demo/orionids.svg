@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <rect width="640" height="360" fill="#040612"/>
+  <!-- Orion Constellation -->
+  <!-- Betelgeuse -->
+  <circle cx="260" cy="110" r="3.5" fill="#f97316"/>
+  <!-- Rigel -->
+  <circle cx="360" cy="240" r="3.5" fill="#38bdf8"/>
+  <!-- Bellatrix -->
+  <circle cx="350" cy="120" r="2.8" fill="#38bdf8"/>
+  <!-- Saiph -->
+  <circle cx="280" cy="235" r="2.8" fill="#38bdf8"/>
+  <!-- Belt Stars -->
+  <circle cx="300" cy="175" r="2.5" fill="#ffffff"/>
+  <circle cx="312" cy="173" r="2.5" fill="#ffffff"/>
+  <circle cx="324" cy="171" r="2.5" fill="#ffffff"/>
+  <line x1="260" y1="110" x2="300" y2="175" stroke="#38bdf8" stroke-width="0.8" opacity="0.3"/>
+  <line x1="350" y1="120" x2="324" y2="171" stroke="#38bdf8" stroke-width="0.8" opacity="0.3"/>
+  <line x1="300" y1="175" x2="280" y2="235" stroke="#38bdf8" stroke-width="0.8" opacity="0.3"/>
+  <line x1="324" y1="171" x2="360" y2="240" stroke="#38bdf8" stroke-width="0.8" opacity="0.3"/>
+  <!-- Orionid Meteor Flash -->
+  <line x1="310" y1="165" x2="490" y2="290" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <line x1="310" y1="165" x2="490" y2="290" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

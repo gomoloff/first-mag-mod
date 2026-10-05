@@ -43,10 +43,11 @@
 			?>
 			<div class="collapse navbar-collapse navbar-1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Главная', 'first-mag' ); ?></a></li>
-					<li><a href="#cosmos"><?php esc_html_e( 'Космос & Миссии', 'first-mag' ); ?></a></li>
-					<li><a href="#technology"><?php esc_html_e( 'IT & Технологии', 'first-mag' ); ?></a></li>
-					<li><a href="#research"><?php esc_html_e( 'Исследования', 'first-mag' ); ?></a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'СТАТЬИ', 'first-mag' ); ?></a></li>
+					<li><a href="#contacts"><?php esc_html_e( 'КОНТАКТЫ', 'first-mag' ); ?></a></li>
+					<li><a href="#gallery"><?php esc_html_e( 'ГАЛЕРЕЯ', 'first-mag' ); ?></a></li>
+					<li><a href="#art"><?php esc_html_e( 'ИСКУССТВО', 'first-mag' ); ?></a></li>
+					<li><a href="#profile"><?php esc_html_e( 'МОЙ ПРОФИЛЬ', 'first-mag' ); ?></a></li>
 				</ul>
 			</div>
 			<?php

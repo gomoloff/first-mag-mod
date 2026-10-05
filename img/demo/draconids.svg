@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <rect width="640" height="360" fill="#050816"/>
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="90" cy="110" r="1.4"/>
+    <circle cx="240" cy="80" r="1.6"/>
+    <circle cx="380" cy="140" r="1.2"/>
+    <circle cx="450" cy="60" r="1.5"/>
+    <circle cx="580" cy="170" r="1.8"/>
+  </g>
+  <!-- Draco constellation outline -->
+  <polyline points="180,60 220,100 270,90 310,140 380,120" fill="none" stroke="#3b82f6" stroke-width="0.8" opacity="0.4"/>
+  <!-- Draconid Meteor Streak -->
+  <line x1="280" y1="100" x2="420" y2="230" stroke="#f43f5e" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <line x1="280" y1="100" x2="420" y2="230" stroke="#fef08a" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

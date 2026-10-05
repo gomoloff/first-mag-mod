@@ -1,12 +1,12 @@
 {
-  "name": "first-mag-theme",
+  "name": "php-web-info-theme",
   "version": "2.0.0",
-  "description": "First Mag - 2026 IT & Space WordPress Theme Refactor",
+  "description": "PHP-Web.Info - 2026 IT & Space Theme Refactor",
   "type": "module",
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "build": "node -e 'console.log(\"Theme ready for deployment\")'"
+    "build": "node -e 'console.log(\"Build complete\")'"
   },
   "dependencies": {}
 }

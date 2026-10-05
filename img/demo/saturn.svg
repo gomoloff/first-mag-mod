@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+  <defs>
+    <radialGradient id="saturnBall" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#eab308"/>
+      <stop offset="85%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#713f12"/>
+    </radialGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ca8a04" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="48%" stop-color="#713f12" stop-opacity="0.1"/>
+      <stop offset="52%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#ca8a04" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#451a03" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="#02040a"/>
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="90" cy="80" r="1.2"/>
+    <circle cx="160" cy="240" r="1"/>
+    <circle cx="520" cy="90" r="1.4"/>
+    <circle cx="560" cy="260" r="1"/>
+  </g>
+  <!-- Back of Rings -->
+  <ellipse cx="320" cy="180" rx="190" ry="46" fill="none" stroke="url(#ringGrad)" stroke-width="26" opacity="0.95" transform="rotate(-18, 320, 180)"/>
+  <!-- Planet Body -->
+  <circle cx="320" cy="180" r="68" fill="url(#saturnBall)"/>
+  <!-- Planet Cloud Belts -->
+  <path d="M 254 170 Q 320 185 386 170" fill="none" stroke="#a16207" stroke-width="4" opacity="0.4"/>
+  <path d="M 252 190 Q 320 205 388 190" fill="none" stroke="#713f12" stroke-width="5" opacity="0.3"/>
+  <!-- Front of Rings -->
+  <path d="M 140 180 A 190 46 0 0 0 500 180" fill="none" stroke="url(#ringGrad)" stroke-width="26" opacity="0.95" transform="rotate(-18, 320, 180)"/>
+</svg>
